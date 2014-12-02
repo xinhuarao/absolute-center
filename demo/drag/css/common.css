@@ -1,0 +1,27 @@
+html,body {
+    width: 100%;
+    font-size: 100%;
+}
+.iframe {
+    border:1px solid #000;
+    cursor: pointer;
+}
+div {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    border: 1px solid #999;
+    height: 60px;
+    width: 100px;
+    cursor: move;
+    color: #fff;
+    background-color: #43AC6A;
+    margin-left: 50px;
+    text-align: center;
+    line-height: 60px;
+    transition: box-shadow .3s;
+}
+div:hover {
+    top: 48px;
+    box-shadow: 0 0 10px #999;
+}
