@@ -1,0 +1,15 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+.content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    border: 1px solid #ccc;
+    height: 240px;
+    width: 70%;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
